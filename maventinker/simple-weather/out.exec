@@ -1,0 +1,35 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.sonatype.mavenbook.ch04:simple-weather:jar:1.0
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 75, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building simple-weather 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ simple-weather ---
+0    INFO  YahooParser  - Creating XML Reader
+1    INFO  YahooParser  - inputStream is not null has 2303 available bytes and dummy test 100
+115  INFO  YahooParser  - Parsing XML Response
+141  INFO  WeatherFormatter  - Formatting Weather Data
+*********************************
+ Current Weather Conditions for:
+  New York, NY, US
+  
+ Temperature: 39
+   Condition: Fair
+    Humidity: 67
+  Wind Chill: 39
+*********************************
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.175 s
+[INFO] Finished at: 2017-05-24T22:10:54-04:00
+[INFO] Final Memory: 18M/609M
+[INFO] ------------------------------------------------------------------------

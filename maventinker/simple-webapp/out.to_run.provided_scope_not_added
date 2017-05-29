@@ -1,0 +1,163 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.sonatype.mavenbook.ch05:simple-webapp:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.mortbay.jetty:maven-jetty-plugin is missing. @ line 33, column 14
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 26, column 14
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building simple-webapp Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ simple-webapp ---
+[INFO] Deleting /home/chariotoffire77/maventinker/simple-webapp/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ simple-webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ simple-webapp ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/chariotoffire77/maventinker/simple-webapp/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ simple-webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/chariotoffire77/maventinker/simple-webapp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ simple-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ simple-webapp ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ simple-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [simple-webapp] in [/home/chariotoffire77/maventinker/simple-webapp/target/simple-webapp]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/chariotoffire77/maventinker/simple-webapp/src/main/webapp]
+[INFO] Webapp assembled in [22 msecs]
+[INFO] Building war: /home/chariotoffire77/maventinker/simple-webapp/target/simple-webapp.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ simple-webapp ---
+[INFO] Installing /home/chariotoffire77/maventinker/simple-webapp/target/simple-webapp.war to /home/chariotoffire77/.m2/repository/org/sonatype/mavenbook/ch05/simple-webapp/1.0-SNAPSHOT/simple-webapp-1.0-SNAPSHOT.war
+[INFO] Installing /home/chariotoffire77/maventinker/simple-webapp/pom.xml to /home/chariotoffire77/.m2/repository/org/sonatype/mavenbook/ch05/simple-webapp/1.0-SNAPSHOT/simple-webapp-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.211 s
+[INFO] Finished at: 2017-05-28T18:25:55-04:00
+[INFO] Final Memory: 20M/473M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.sonatype.mavenbook.ch05:simple-webapp:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.mortbay.jetty:maven-jetty-plugin is missing. @ line 33, column 14
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 26, column 14
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building simple-webapp Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ simple-webapp >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ simple-webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ simple-webapp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ simple-webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/chariotoffire77/maventinker/simple-webapp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ simple-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< maven-jetty-plugin:6.1.26:run (default-cli) < test-compile @ simple-webapp <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-jetty-plugin:6.1.26:run (default-cli) @ simple-webapp ---
+[INFO] Configuring Jetty for project: simple-webapp Maven Webapp
+[INFO] Webapp source directory = /home/chariotoffire77/maventinker/simple-webapp/src/main/webapp
+[INFO] Reload Mechanic: automatic
+[INFO] Classes = /home/chariotoffire77/maventinker/simple-webapp/target/classes
+[INFO] Logging to org.slf4j.impl.MavenSimpleLogger(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[INFO] Context path = /simple-webapp
+[INFO] Tmp directory =  determined at runtime
+[INFO] Web defaults = org/mortbay/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] web.xml file = /home/chariotoffire77/maventinker/simple-webapp/src/main/webapp/WEB-INF/web.xml
+[INFO] Webapp directory = /home/chariotoffire77/maventinker/simple-webapp/src/main/webapp
+[INFO] Starting jetty 6.1.26 ...
+[INFO] jetty-6.1.26
+[INFO] No Transaction manager found - if your webapp requires one, please configure one.
+[WARNING] failed SelectChannelConnector@0.0.0.0:8080: java.net.BindException: Address already in use
+[WARNING] failed Server@69eb86b4: java.net.BindException: Address already in use
+[INFO] Jetty server exiting.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.812 s
+[INFO] Finished at: 2017-05-28T18:25:57-04:00
+[INFO] Final Memory: 12M/483M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.mortbay.jetty:maven-jetty-plugin:6.1.26:run (default-cli) on project simple-webapp: Failure: Address already in use -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] Shutdown hook executing
+[INFO] Stopped SelectChannelConnector@0.0.0.0:8080
+[WARNING] failed jsp: java.lang.NoClassDefFoundError: org/apache/jasper/runtime/JspApplicationContextImpl
+[WARNING] failed ServletHandler@55e66409: java.lang.NoClassDefFoundError: org/apache/jasper/runtime/JspApplicationContextImpl
+[WARNING] failed SecurityHandler@5b2180c5: java.lang.NoClassDefFoundError: org/apache/jasper/runtime/JspApplicationContextImpl
+[WARNING] failed SessionHandler@5f1e0f79: java.lang.NoClassDefFoundError: org/apache/jasper/runtime/JspApplicationContextImpl
+[WARNING] failed org.mortbay.jetty.plugin.Jetty6PluginWebAppContext@585ac855{/simple-webapp,/home/chariotoffire77/maventinker/simple-webapp/src/main/webapp}: java.lang.NoClassDefFoundError: org/apache/jasper/runtime/JspApplicationContextImpl
+[WARNING] failed ContextHandlerCollection@1a1c8afe: java.lang.NoClassDefFoundError: org/apache/jasper/runtime/JspApplicationContextImpl
+[WARNING] failed HandlerCollection@7c3c6398: java.lang.NoClassDefFoundError: org/apache/jasper/runtime/JspApplicationContextImpl
+[WARNING] failed Server@69eb86b4: java.lang.NoClassDefFoundError: org/apache/jasper/runtime/JspApplicationContextImpl
+Exception in thread "Shutdown" java.lang.NoClassDefFoundError: org/apache/jasper/runtime/JspApplicationContextImpl
+	at org.apache.jasper.servlet.JspServlet.destroy(JspServlet.java:411)
+	at org.mortbay.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:318)
+	at org.mortbay.jetty.servlet.ServletHolder.doStop(ServletHolder.java:289)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler.doStop(ServletHandler.java:185)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStop(HandlerWrapper.java:142)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStop(HandlerWrapper.java:142)
+	at org.mortbay.jetty.servlet.SessionHandler.doStop(SessionHandler.java:125)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStop(HandlerWrapper.java:142)
+	at org.mortbay.jetty.handler.ContextHandler.doStop(ContextHandler.java:592)
+	at org.mortbay.jetty.webapp.WebAppContext.doStop(WebAppContext.java:537)
+	at org.mortbay.jetty.plugin.Jetty6PluginWebAppContext.doStop(Jetty6PluginWebAppContext.java:123)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerCollection.doStop(HandlerCollection.java:169)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerCollection.doStop(HandlerCollection.java:169)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStop(HandlerWrapper.java:142)
+	at org.mortbay.jetty.Server.doStop(Server.java:283)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.Server$ShutdownHookThread.run(Server.java:561)
+Caused by: java.lang.ClassNotFoundException: org.apache.jasper.runtime.JspApplicationContextImpl
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	... 24 more

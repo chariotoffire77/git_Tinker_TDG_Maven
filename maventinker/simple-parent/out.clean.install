@@ -1,0 +1,101 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Chapter 6 Simple Parent Project
+[INFO] Chapter 6 Simple Weather API
+[INFO] simple-webapp Maven Webapp
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Chapter 6 Simple Parent Project 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ simple-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ simple-parent ---
+[INFO] Installing /home/chariotoffire77/maventinker/simple-parent/pom.xml to /home/chariotoffire77/.m2/repository/org/sonatype/mavenbook/ch06/simple-parent/1.0/simple-parent-1.0.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Chapter 6 Simple Weather API 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ simple-weather ---
+[INFO] Deleting /home/chariotoffire77/maventinker/simple-parent/simple-weather/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ simple-weather ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ simple-weather ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 6 source files to /home/chariotoffire77/maventinker/simple-parent/simple-weather/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ simple-weather ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/chariotoffire77/maventinker/simple-parent/simple-weather/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ simple-weather ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ simple-weather ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ simple-weather ---
+[INFO] Building jar: /home/chariotoffire77/maventinker/simple-parent/simple-weather/target/simple-weather-1.0.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ simple-weather ---
+[INFO] Installing /home/chariotoffire77/maventinker/simple-parent/simple-weather/target/simple-weather-1.0.jar to /home/chariotoffire77/.m2/repository/org/sonatype/mavenbook/ch06/simple-weather/1.0/simple-weather-1.0.jar
+[INFO] Installing /home/chariotoffire77/maventinker/simple-parent/simple-weather/pom.xml to /home/chariotoffire77/.m2/repository/org/sonatype/mavenbook/ch06/simple-weather/1.0/simple-weather-1.0.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building simple-webapp Maven Webapp 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ simple-webapp ---
+[INFO] Deleting /home/chariotoffire77/maventinker/simple-parent/simple-webapp/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ simple-webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ simple-webapp ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /home/chariotoffire77/maventinker/simple-parent/simple-webapp/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ simple-webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/chariotoffire77/maventinker/simple-parent/simple-webapp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ simple-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ simple-webapp ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ simple-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [simple-webapp] in [/home/chariotoffire77/maventinker/simple-parent/simple-webapp/target/simple-webapp]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/chariotoffire77/maventinker/simple-parent/simple-webapp/src/main/webapp]
+[INFO] Webapp assembled in [193 msecs]
+[INFO] Building war: /home/chariotoffire77/maventinker/simple-parent/simple-webapp/target/simple-webapp.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ simple-webapp ---
+[INFO] Installing /home/chariotoffire77/maventinker/simple-parent/simple-webapp/target/simple-webapp.war to /home/chariotoffire77/.m2/repository/org/sonatype/mavenbook/ch06/simple-webapp/1.0/simple-webapp-1.0.war
+[INFO] Installing /home/chariotoffire77/maventinker/simple-parent/simple-webapp/pom.xml to /home/chariotoffire77/.m2/repository/org/sonatype/mavenbook/ch06/simple-webapp/1.0/simple-webapp-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Chapter 6 Simple Parent Project .................... SUCCESS [  0.204 s]
+[INFO] Chapter 6 Simple Weather API ....................... SUCCESS [  0.920 s]
+[INFO] simple-webapp Maven Webapp ......................... SUCCESS [  0.702 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.911 s
+[INFO] Finished at: 2017-05-29T10:25:06-04:00
+[INFO] Final Memory: 23M/469M
+[INFO] ------------------------------------------------------------------------

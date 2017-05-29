@@ -1,0 +1,47 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-archetype-plugin:3.0.1:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO] 
+[INFO] <<< maven-archetype-plugin:3.0.1:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-archetype-plugin:3.0.1:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Interactive mode
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-webapp/1.0/maven-archetype-webapp-1.0.pom
+Progress (1): 533 B                   Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-webapp/1.0/maven-archetype-webapp-1.0.pom (533 B at 8.9 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/2/maven-archetype-bundles-2.pom
+Progress (1): 1.5 kB                    Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/2/maven-archetype-bundles-2.pom (1.5 kB at 31 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype-parent/1/maven-archetype-parent-1.pom
+Progress (1): 0/1.3 kBProgress (1): 1.3 kB                      Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype-parent/1/maven-archetype-parent-1.pom (1.3 kB at 28 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom
+Progress (1): 2.1/10.0 kBProgress (1): 4.9/10.0 kBProgress (1): 7.7/10.0 kBProgress (1): 10.0 kB                         Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom (10.0 kB at 192 kB/s)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-webapp/1.0/maven-archetype-webapp-1.0.jar
+Progress (1): 2.1/3.9 kBProgress (1): 3.9 kB                        Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-webapp/1.0/maven-archetype-webapp-1.0.jar (3.9 kB at 86 kB/s)
+[INFO] Using property: groupId = org.sonatype.mavenbook.ch05
+Define value for property 'artifactId': Define value for property 'version' 1.0-SNAPSHOT: : [INFO] Using property: package = org.sonatype.mavenbook.ch05
+Confirm properties configuration:
+groupId: org.sonatype.mavenbook.ch05
+artifactId: simple-webapp
+version: 1.0-SNAPSHOT
+package: org.sonatype.mavenbook.ch05
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: maven-archetype-webapp:1.0
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: basedir, Value: /home/chariotoffire77/maventinker
+[INFO] Parameter: package, Value: org.sonatype.mavenbook.ch05
+[INFO] Parameter: groupId, Value: org.sonatype.mavenbook.ch05
+[INFO] Parameter: artifactId, Value: simple-webapp
+[INFO] Parameter: packageName, Value: org.sonatype.mavenbook.ch05
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] project created from Old (1.x) Archetype in dir: /home/chariotoffire77/maventinker/simple-webapp
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 55.000 s
+[INFO] Finished at: 2017-05-24T22:36:14-04:00
+[INFO] Final Memory: 21M/475M
+[INFO] ------------------------------------------------------------------------

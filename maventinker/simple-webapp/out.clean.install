@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.sonatype.mavenbook.ch05:simple-webapp:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.mortbay.jetty:maven-jetty-plugin is missing. @ line 40, column 14
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 33, column 14
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building simple-webapp Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ simple-webapp ---
+[INFO] Deleting /home/chariotoffire77/maventinker/simple-webapp/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ simple-webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ simple-webapp ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/chariotoffire77/maventinker/simple-webapp/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ simple-webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/chariotoffire77/maventinker/simple-webapp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ simple-webapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ simple-webapp ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ simple-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [simple-webapp] in [/home/chariotoffire77/maventinker/simple-webapp/target/simple-webapp]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/chariotoffire77/maventinker/simple-webapp/src/main/webapp]
+[INFO] Webapp assembled in [39 msecs]
+[INFO] Building war: /home/chariotoffire77/maventinker/simple-webapp/target/simple-webapp.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ simple-webapp ---
+[INFO] Installing /home/chariotoffire77/maventinker/simple-webapp/target/simple-webapp.war to /home/chariotoffire77/.m2/repository/org/sonatype/mavenbook/ch05/simple-webapp/1.0-SNAPSHOT/simple-webapp-1.0-SNAPSHOT.war
+[INFO] Installing /home/chariotoffire77/maventinker/simple-webapp/pom.xml to /home/chariotoffire77/.m2/repository/org/sonatype/mavenbook/ch05/simple-webapp/1.0-SNAPSHOT/simple-webapp-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.033 s
+[INFO] Finished at: 2017-05-28T18:57:57-04:00
+[INFO] Final Memory: 18M/357M
+[INFO] ------------------------------------------------------------------------
