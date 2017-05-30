@@ -3,7 +3,8 @@
 2. simple-parent/simple-webapp
    When you run the application, run it as:
 
-   mvn -Dport=8085 jetty:run ; if you use default port 8080,
+   mvn -Djetty.port=8085 jetty:run 2>&1|tee out.jetty.run.8085
+   if you use default port 8080,
    you may address still in use errors.
 
    Note that you can test the url using the curl scripts
